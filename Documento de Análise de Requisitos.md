@@ -13,8 +13,10 @@
 ## 6. Casos de uso
 
 ## 7. Classes
+![Imagem Diagrama de Classes - Ferramenta Astah](https://github.com/brunopego/tpweb/blob/master/imagens/Clas.jpg)
 
 ## 8. Banco de Dados
+![Imagem Diagrama ER - Ferramenta MySql](https://github.com/brunopego/tpweb/blob/master/imagens/estoque.png)
 
 ## 9. Protótipos
 * Link para os códigos fontes
