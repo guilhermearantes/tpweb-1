@@ -5,7 +5,6 @@
 
 
 ## 2. Descrição do Problema
-Algumas explicações sobre o diagrama Na classe venda, existe um método denominado Incluir, que não retorna nenhuma informação, ou 
 
 ## 3. Objetivo
 
@@ -18,7 +17,8 @@ Os possuir o status de pendente (A produtos com pedidos podem Os e entregue (nes
 ## 6. Casos de uso
 
 ## 7. Classes
-seja, retorna void. Essa mesma explicação serve para as demais classes. Podemos perceber ainda o relacionamento todo-parte na forma de composição na relação entre as classes Venda e Itens e o relacionamento de agregação na relação Itens e Produto. A classe Produto passa a ser uma classe abstrata, a qual não poderá ser instanciada, auxiliando apenas no processo de modelagem As classes Perecivel e Não Perecivel são subclasses da classe Produto, o que demonstra a relação de herança. Com base na modelagem acima, precisamos passar para a 3a etapa de nosso projeto, a fase de prototipação, na qual as telas de nosso sistema serão desenvolvidas.
+
+Algumas explicações sobre o diagrama Na classe venda, existe um método denominado Incluir, que não retorna nenhuma informação, ou seja, retorna void. Essa mesma explicação serve para as demais classes. Podemos perceber ainda o relacionamento todo-parte na forma de composição na relação entre as classes Venda e Itens e o relacionamento de agregação na relação Itens e Produto. A classe Produto passa a ser uma classe abstrata, a qual não poderá ser instanciada, auxiliando apenas no processo de modelagem As classes Perecivel e Não Perecivel são subclasses da classe Produto, o que demonstra a relação de herança. Com base na modelagem acima, precisamos passar para a 3a etapa de nosso projeto, a fase de prototipação, na qual as telas de nosso sistema serão desenvolvidas.
 ![Imagem Diagrama de Classes - Ferramenta Astah](https://github.com/brunopego/tpweb/blob/master/imagens/Clas.jpg)
 
 ## 8. Banco de Dados
