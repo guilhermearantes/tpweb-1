@@ -25,7 +25,7 @@ Algumas explicações sobre o diagrama Na classe venda, existe um método denomi
 ![Imagem Diagrama ER - Ferramenta MySql](https://github.com/brunopego/tpweb/blob/master/imagens/estoque.png)
 
 ## 9. Protótipos
-* https://github.com/brunopego/tpweb/tree/master/Stock_Web
+* https://github.com/brunopego/tpweb/tree/master/tpweb-master/Stock_Web
 
 ## 10. Cronograma
 
