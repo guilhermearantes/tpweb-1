@@ -16,7 +16,30 @@ Antes de construirmos o projeto precisamos planejar diversas soluções para a p
 Os possuir o status de pendente (A produtos com pedidos podem Os e entregue (neste caso, devemos marcar no sistema a data real de vamos basicamente são do tipo Pe e Não sendo que para os produtos armazenar informações sobre a data de validade e do Para os produtos na temos que armazenar o prazo de garantia dos produtos, o sistema deverá ser desenvolvido linguagem C# de dados Mysql s seguintes relatórios informativos foram solicitados pelo cliente de por vendedor no período; b) Produtos em falta no estoque Estoque atual d) Faturamento por periodo Com base nos requisitos acima precisamos passar para a 2a etapa de nosso projeto, ou seja fase de modelagem, do nosso dados quanto de classes de nosso sistema
 ## 6. Casos de uso
   1. Caso de Uso
-    * **Nome:**
+    * **Nome:** Cadastrar Venda
+    * **Escopo:** STOCK_WEB
+    * **Nível:** Objetivo de usuário
+    * **Ator primário:** Operador
+    * **Interessados:**
+      1. _Usuário:_ Possibilita o usuário a cadastrar uma venda
+      2. _Empresa:_ Garante o controle de estoque de acordo com o nivelamento atual
+    * **Pré condições:**
+      1. Usuário deve estar devidamente logado
+      2. O estoque de um produto deve estar positivo e maior do que o solicitado na compra
+    * **Garantias de sucesso:** Venda é feita com sucesso
+    * **Cenário de sucesso principal:**
+      1.	Usuário operador deve efetuar o login
+      2.	Operador acessa a página de cadastro de vendas
+      3.	Operador preenche os campos necessários para cadastro (Vendedor, Produto, Data da compra, Data prevista, Valor Unitário, Quantidade)
+      4.	Operador efetua a venda.
+      5.	Sistema faz o balanço de estoque e o armazenamento das informações no banco de dados.
+    * **Extensões:**
+      * 1.a) Dados do usuário incorreto: Sistema sinaliza erro solicita reentrada dos dados
+      * 4.a) Venda só é realizada se há estoque disponível daquele produt:	Sistema sinaliza erro
+    * **Requisitos especiais:**
+      1. Texto visível até 1 metro de distancia 
+    * **Frequência de ocorrência:** Diário/Semanal/Mensal
+    
 
 ## 7. Classes
 
