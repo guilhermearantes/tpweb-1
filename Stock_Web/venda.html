@@ -291,7 +291,17 @@
                     </li>
                     
                     <li>
-                        <a href="venda.html"><i class="fa fa-shopping-cart fa-fw"></i>Vendas</a>
+                        <a href="#"><i class="fa fa-wrench fa-fw"></i>Vendas<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                           <li>
+                                <a href="venda.html">Efetuar Venda</a>
+                            </li>
+                            <li>
+                                <a href="consultarVenda.html">Consultar Venda</a>
+                            </li>
+                            
+                        </ul>
+                        <!-- second-level-items -->
                     </li>
                     
                     
@@ -321,18 +331,42 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <form role="form">
-                                        <div class="form-group">
-                                            <label>Nome</label>
-                                            <input class="form-control" placeholder="Nome do Produto">
+                                        <div class="form-group input-group">
+                                            <span class="input-group-addon">Produto:</span> 
+                                            <!--<label>Produto</label>-->
+                                            <select class="form-control">
+                                                <option>Produto 1</option>
+                                                <option>Produto 2</option>
+                                            </select>
                                         </div>
                                         <div class="form-group input-group">
-                                            <span class="input-group-addon">$</span>
-                                            <input type="text" class="form-control">
+                                            <span class="input-group-addon">Vendedor:</span> 
+                                            <!--<label>Vendedor</label>-->
+                                            <select class="form-control">
+                                                <option>Vendedor 1</option>
+                                                <option>Vendedor 2</option>
+                                            </select>
                                         </div>
-                                        <div class="form-group">
-                                            <label>Quantidade</label>
+                                        <div class="form-group input-group">
+                                            <span class="input-group-addon">Data da Compra: </span> 
+                                            <input type="text" class="form-control" placeholder="Data Compra">
+                                        </div>
+                                        <div class="form-group input-group">
+                                            <span class="input-group-addon">Data Prevista p/ Entrega: </span> 
+                                            <input type="text" class="form-control" placeholder="Data Entrega">
+                                        </div>
+                                        <div class="form-group input-group">
+                                            <span class="input-group-addon">Valor Unitário: <b>$</b></span> 
+                                            <input type="text" class="form-control" placeholder="Valor Unitário">
+                                        </div>
+                                        <div class="form-group input-group">
+                                            <span class="input-group-addon">Quantidade:</span> 
                                             <input class="form-control" placeholder="Quantidade Mínima">
-                                        </div>                                        
+                                        </div>     
+                                        <div class="form-group input-group">
+                                            <span class="input-group-addon"><b>VALOR TOTAL:</b> <input class="form-control" type="label" name="lblResult"></span> 
+                                            
+                                        </div>                                     
                                         <button type="reset" class="btn btn-danger">Cancelar</button>
                                         <button type="submit" class="btn btn-success">Gravar</button>
                                         
