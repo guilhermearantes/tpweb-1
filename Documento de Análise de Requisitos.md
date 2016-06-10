@@ -34,12 +34,123 @@ Os possuir o status de pendente (A produtos com pedidos podem Os e entregue (nes
       4.	Operador efetua a venda.
       5.	Sistema faz o balanço de estoque e o armazenamento das informações no banco de dados.
     * **Extensões:**
-      * 1.a) Dados do usuário incorreto: Sistema sinaliza erro solicita reentrada dos dados
-      * 4.a) Venda só é realizada se há estoque disponível daquele produt:	Sistema sinaliza erro
+      * a) Dados do usuário incorreto: Sistema sinaliza erro solicita reentrada dos dados
+      * d) Venda só é realizada se há estoque disponível daquele produto:	Sistema sinaliza erro
     * **Requisitos especiais:**
       1. Texto visível até 1 metro de distancia 
     * **Frequência de ocorrência:** Diário/Semanal/Mensal
-    
+  
+  2. Caso de Uso
+    * **Nome:** Consultar Venda
+    * **Escopo:** STOCK_WEB
+    * **Nível:** Objetivo de usuário
+    * **Ator primário:** Operador
+    * **Interessados:**
+      1. _Usuário:_ Possibilita o usuário a consultar as vendas cadastradas
+      2. _Empresa:_ Fornece as informações de vendas já efetuadas
+    * **Pré condições:**
+      1. Usuário deve estar devidamente logado
+    * **Garantias de sucesso:** Consulta é feita com sucesso
+    * **Cenário de sucesso principal:**
+      1.	Usuário operador deve efetuar o login
+      2.	Operador acessa a página de consulta de vendas
+      3.	Operador pesquisa a venda através de vários filtros disponíveis
+    * **Extensões:**
+      * a) Dados do usuário incorreto: Sistema sinaliza erro solicita reentrada dos dados
+      * c) Pesquisa só é feita para dados existentes no banco de dados: Sistema sinaliza erro
+    * **Requisitos especiais:**
+      1. Texto visível até 1 metro de distancia 
+    * **Frequência de ocorrência:** Diário/Semanal/Mensal
+  
+  3. Caso de Uso
+    * **Nome:** Cadastrar produto
+    * **Escopo:** STOCK_WEB
+    * **Nível:** Objetivo de usuário
+    * **Ator primário:** Operador
+    * **Interessados:**
+      1. _Usuário:_ Possibilita o usuário a cadastrar um novo produto
+      2. _Empresa:_ Aumenta a diversidade de produtos ofertados
+    * **Pré condições:**
+      1. Usuário deve estar devidamente logado
+    * **Garantias de sucesso:** Produto é cadastrado com sucesso
+    * **Cenário de sucesso principal:**
+      1.	Usuário operador deve efetuar o login
+      2.	Operador acessa a página de cadastro de produtos
+      3.	Operador insere a descrição do produto (Nome, valor unitário)
+      4.	Usuário salva o novo cadastro do produto
+    * **Extensões:**
+      * a) Dados do usuário incorreto: Sistema sinaliza erro solicita reentrada dos dados
+    * **Requisitos especiais:**
+      1. Texto visível até 1 metro de distancia 
+    * **Frequência de ocorrência:** Diário/Semanal/Mensal
+  
+  4. Caso de Uso
+    * **Nome:** Excluir produto
+    * **Escopo:** STOCK_WEB
+    * **Nível:** Objetivo de usuário
+    * **Ator primário:** Operador
+    * **Interessados:**
+      1. _Usuário:_ Possibilita o usuário a excluir um produto
+      2. _Empresa:_ Elimina os produtos inativos da base de dados
+    * **Pré condições:**
+      1. Usuário deve estar devidamente logado
+    * **Garantias de sucesso:** Produto é eliminado com sucesso
+    * **Cenário de sucesso principal:**
+      1.	Usuário operador deve efetuar o login
+      2.	Operador acessa a página de exclusão de produtos
+      3.	Operador insere o código do produto a ser deletado
+      4.	Usuário confirma a exclusão do produto
+    * **Extensões:**
+      * a) Dados do usuário incorreto: Sistema sinaliza erro solicita reentrada dos dados
+      * d) Exclusão só é feita para produtos existentes na base de dados:	Sistema sinaliza erro
+    * **Requisitos especiais:**
+      1. Texto visível até 1 metro de distancia 
+    * **Frequência de ocorrência:** Diário/Semanal/Mensal
+  
+  5. Caso de Uso
+    * **Nome:** Cadastrar vendedor
+    * **Escopo:** STOCK_WEB
+    * **Nível:** Objetivo de usuário
+    * **Ator primário:** Operador
+    * **Interessados:**
+      1. _Usuário:_ Possibilita o usuário a cadastrar um novo vendedor
+      2. _Empresa:_ Aumenta a quantidade de vendedores ligados à empresa
+    * **Pré condições:**
+      1. Usuário deve estar devidamente logado
+    * **Garantias de sucesso:** Vendedor é cadastrado com sucesso
+    * **Cenário de sucesso principal:**
+      1.	Usuário operador deve efetuar o login
+      2.	Operador acessa a página de cadastro de vendedores
+      3.	Operador insere os dados do vendedor (Nome, data de nascimento, comissão, status)
+      4.	Usuário salva o novo cadastro de vendedor
+    * **Extensões:**
+      * a) Dados do usuário incorreto: Sistema sinaliza erro solicita reentrada dos dados
+    * **Requisitos especiais:**
+      1. Texto visível até 1 metro de distancia 
+    * **Frequência de ocorrência:** Diário/Semanal/Mensal
+  
+  6. Caso de Uso
+    * **Nome:** Inativar vendedor
+    * **Escopo:** STOCK_WEB
+    * **Nível:** Objetivo de usuário
+    * **Ator primário:** Operador
+    * **Interessados:**
+      1. _Usuário:_ Possibilita o usuário a inativar um vendedor
+      2. _Empresa:_ Inativa o vendedor
+    * **Pré condições:**
+      1. Usuário deve estar devidamente logado
+    * **Garantias de sucesso:** Vendedor é inativado com sucesso
+    * **Cenário de sucesso principal:**
+      1.	Usuário operador deve efetuar o login
+      2.	Operador acessa a página de edição de vendedores
+      3.	Operador insere o código do vendedor a ser inativado
+      4.	Usuário confirma a inativação do vendedor
+    * **Extensões:**
+      * a) Dados do usuário incorreto: Sistema sinaliza erro solicita reentrada dos dados
+      * d) A inativação só é feita para vendedores existentes na base de dados:	Sistema sinaliza erro
+    * **Requisitos especiais:**
+      1. Texto visível até 1 metro de distancia 
+    * **Frequência de ocorrência:** Diário/Semanal/Mensal
 
 ## 7. Classes
 
