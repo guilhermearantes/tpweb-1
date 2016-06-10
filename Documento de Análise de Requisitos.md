@@ -192,6 +192,8 @@ Os códigos referentes a cada tela pode ser encontrado seguindo o link abaixo:
 
 ## 10. Cronograma
 
+![Cronograma](https://github.com/brunopego/tpweb/blob/master/imagens/cronograma.png)
+
 ## 11. Referências
 
 [1]: http://www.free-css.com/free-css-templates/page197/siminta
