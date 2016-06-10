@@ -168,7 +168,25 @@ Na classe venda, existe um método denominado Incluir, que não retorna nenhuma 
 
 ## 9. Protótipos
 
-Os protótipos do projeto juntamente com o código fonte podem ser encontrado no link abaixo, onde basta acessar as páginas *html*
+Os protótipos das telas principais do projeto juntamente com o código fonte estão definidos abaixo:
+
+### Consultar Vendas:
+
+![Imagem consultar vendas](https://github.com/brunopego/tpweb/blob/master/imagens/telaConsultarVenda.png)
+
+### Efetuar Vendas:
+
+![Imagem efetuar vendas](https://github.com/brunopego/tpweb/blob/master/imagens/telaEfetuarVenda.png)
+
+### Cadastrar Produto:
+
+![Imagem cadastrar produto](https://github.com/brunopego/tpweb/blob/master/imagens/telaProduto.png)
+
+### Cadastrar Vendedor:
+
+![Imagem cadastrar vendedor](https://github.com/brunopego/tpweb/blob/master/imagens/telaVendedor.png)
+
+Os códigos referentes a cada tela pode ser encontrado seguindo o link abaixo:
 
 * https://github.com/brunopego/tpweb/tree/master/Stock_Web
 
