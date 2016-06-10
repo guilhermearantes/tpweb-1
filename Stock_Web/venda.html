@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +13,8 @@
     <link href="assets/css/main-style.css" rel="stylesheet" />
     <!-- Page-Level CSS -->
     <link href="assets/plugins/morris/morris-0.4.3.min.css" rel="stylesheet" />
-   </head>
+</head>
+
 <body>
     <!--  wrapper -->
     <div id="wrapper">
@@ -88,7 +90,7 @@
 
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <span class="top-label label label-success">4</span>  <i class="fa fa-tasks fa-3x"></i>
+                        <span class="top-label label label-success">4</span> <i class="fa fa-tasks fa-3x"></i>
                     </a>
                     <!-- dropdown tasks -->
                     <ul class="dropdown-menu dropdown-tasks">
@@ -168,7 +170,7 @@
 
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <span class="top-label label label-warning">5</span>  <i class="fa fa-bell fa-3x"></i>
+                        <span class="top-label label label-warning">5</span> <i class="fa fa-bell fa-3x"></i>
                     </a>
                     <!-- dropdown alerts-->
                     <ul class="dropdown-menu dropdown-alerts">
@@ -259,52 +261,52 @@
                     <li>
                         <!-- user image section-->
                         <div class="user-section">
-                            
+
                         </div>
                         <!--end user image section-->
                     </li>
                     <li class="sidebar-search">
                         <!-- search section-->
-                        
+
                         <!--end search section-->
                     </li>
                     <li class="selected">
                         <a href="index.html"><i class="fa fa-dashboard fa-fw"></i>Dashboard</a>
                     </li>
-                    
+
                     <li>
                         <a href="#"><i class="fa fa-wrench fa-fw"></i>Cadastrar<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
-                           <li>
+                            <li>
                                 <a href="vendedor.html">Vendedor</a>
                             </li>
                             <li>
                                 <a href="produto.html">Produto</a>
                             </li>
-                            
+
                         </ul>
                         <!-- second-level-items -->
                     </li>
-                    
+
                     <li>
                         <a href="relatorios.html"><i class="fa fa-table fa-fw"></i>Relatórios</a>
                     </li>
-                    
+
                     <li>
                         <a href="#"><i class="fa fa-wrench fa-fw"></i>Vendas<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
-                           <li>
+                            <li>
                                 <a href="venda.html">Efetuar Venda</a>
                             </li>
                             <li>
                                 <a href="consultarVenda.html">Consultar Venda</a>
                             </li>
-                            
+
                         </ul>
                         <!-- second-level-items -->
                     </li>
-                    
-                    
+
+
                 </ul>
                 <!-- end side-menu -->
             </div>
@@ -312,9 +314,9 @@
         </nav>
         <!-- end navbar side -->
         <!--  page-wrapper -->
-          <div id="page-wrapper">
+        <div id="page-wrapper">
             <div class="row">
-                 <!-- page header -->
+                <!-- page header -->
                 <div class="col-lg-12">
                     <h1 class="page-header">Venda</h1>
                 </div>
@@ -331,16 +333,9 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <form role="form">
+
                                         <div class="form-group input-group">
-                                            <span class="input-group-addon">Produto:</span> 
-                                            <!--<label>Produto</label>-->
-                                            <select class="form-control">
-                                                <option>Produto 1</option>
-                                                <option>Produto 2</option>
-                                            </select>
-                                        </div>
-                                        <div class="form-group input-group">
-                                            <span class="input-group-addon">Vendedor:</span> 
+                                            <span class="input-group-addon">Vendedor:</span>
                                             <!--<label>Vendedor</label>-->
                                             <select class="form-control">
                                                 <option>Vendedor 1</option>
@@ -348,34 +343,48 @@
                                             </select>
                                         </div>
                                         <div class="form-group input-group">
-                                            <span class="input-group-addon">Data da Compra: </span> 
+                                            <span class="input-group-addon">Data da Compra: </span>
                                             <input type="text" class="form-control" placeholder="Data Compra">
                                         </div>
                                         <div class="form-group input-group">
-                                            <span class="input-group-addon">Data Prevista p/ Entrega: </span> 
+                                            <span class="input-group-addon">Data Prevista p/ Entrega: </span>
                                             <input type="text" class="form-control" placeholder="Data Entrega">
                                         </div>
                                         <div class="form-group input-group">
-                                            <span class="input-group-addon">Valor Unitário: <b>$</b></span> 
-                                            <input type="text" class="form-control" placeholder="Valor Unitário">
+                                            <span class="input-group-addon">Produto:</span>
+
+                                            <!--<label>Produto</label>-->
+                                            <select class="form-control">
+                                                <option>Produto 1</option>
+                                                <option>Produto 2</option>
+                                            </select>
+
+                                        </div>
+                                        <div float:left>
+                                            <i class="fa fa-plus-circle fa-fw "></i>
+                                        </div>
+                                        <p></p>
+                                        <div class="form-group input-group">
+                                            <span class="input-group-addon">Valor item: <b>$</b></span>
+                                            <input type="text" class="form-control" placeholder="Valor item">
                                         </div>
                                         <div class="form-group input-group">
-                                            <span class="input-group-addon">Quantidade:</span> 
+                                            <span class="input-group-addon">Quantidade:</span>
                                             <input class="form-control" placeholder="Quantidade Mínima">
-                                        </div>     
+                                        </div>
                                         <div class="form-group input-group">
-                                            <span class="input-group-addon"><b>VALOR TOTAL:</b> <input class="form-control" type="label" name="lblResult"></span> 
-                                            
-                                        </div>                                     
+                                            <span class="input-group-addon"><b>VALOR TOTAL:</b> <input class="form-control" type="label" name="lblResult"></span>
+
+                                        </div>
                                         <button type="reset" class="btn btn-danger">Cancelar</button>
                                         <button type="submit" class="btn btn-success">Gravar</button>
-                                        
+
                                     </form>
                                 </div>
                             </div>
                         </div>
                     </div>
-                     <!-- End Form Elements -->
+                    <!-- End Form Elements -->
                 </div>
             </div>
         </div>
