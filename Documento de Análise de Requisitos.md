@@ -1,14 +1,19 @@
 # Documento de Análise de Requisitos
 
 ## 1. Introdução
-
+Dada a necessidade de desenvolvermos um projeto para a disciplina de Sistemas Web I, identificamos a necessidade de um problema no estoque de pequenas empresas, a idéia inicial do projeto é comtemplar estoque de produtos unitários com apoio de simples sistema para gerenciar vendas desses produtos.
 
 
 ## 2. Descrição do Problema
+O desenvolvimento de um sistema de estoque, requer o conhecimento detalhado do produto. Muitas vezes essa especificação pode fazer o produto se tornar específico e não suportando o gerenciamento de um estoque genérico. Como por exemplo o controle de produtos como peso, medida, entre outras especificações.
 
 ## 3. Objetivo
+Com o objetivo de gerenciar estoques, o sistema será capaz de cadastrar diversos produtos e vendê-los de forma que a cada venda um vendedor seja comissionado. Portanto, quando registrado uma venda um vendedor deve estar associado, e os itens também devem ser cadastrados. Esses itens são compostos por produtos, no caso da venda de *n* produtos um único item, corresponde a esse produto, bem como a sua quantidade. O problema em questão é relacionar tais itens com os produtos registrados e dessa forma conseguir gerenciar o estoque.
 
 ## 4. Escopo da Aplicação
+A área de domínio do projeto é cobrir a necessidade de um sistema gerencial, que é capaz de gerenciar o estoque de produtos, no nosso caso de produtos eletrônicos. Com isso o sistema é limitado a esse tipo de serviço, não atendendo a estoque de produtos que exijam data de validade, peso, ou características do tipo.
+
+Para o desenvolvimento do sistema utilizamos um template grátis chamado [siminta][1] que serviu como base para a elaboração do projeto.
 
 ## 5. Descrição do Produto
 Antes de construirmos o projeto precisamos planejar diversas soluções para a proposta. A primeira fase do projeto corresponde à fase de levantamento de requisitos, na qual definimos e analisamos o que seria necessário para desenvolvermos o projeto adotado. Como exemplo, vamos propor o cenário para nosso projeto. Um cliente nos solicita um sistema que tem por objetivo básico controlar as vendas de seus produtos. O sistema deve basicamente registrar as vendas com data do pedido, o total da venda e o nome do vendedor que emitiu o mesmo. Também a previsão de entrega do pedido, deve ser cadastrada. Lembrando de que todo pedido deverá ser emitido por um único vendedor, o qual deverá ser comissionado pela venda. Os produtos possuem um código único, valor de venda, quantidade atual no estoque e quantidade minima que devem ser registrados. Os vendedores possuem um código único, nome completo, data de nascimento e percentual de comissão. 
@@ -154,16 +159,21 @@ Os possuir o status de pendente (A produtos com pedidos podem Os e entregue (nes
 
 ## 7. Classes
 
-Algumas explicações sobre o diagrama Na classe venda, existe um método denominado Incluir, que não retorna nenhuma informação, ou seja, retorna void. Essa mesma explicação serve para as demais classes. Podemos perceber ainda o relacionamento todo-parte na forma de composição na relação entre as classes Venda e Itens e o relacionamento de agregação na relação Itens e Produto. A classe Produto passa a ser uma classe abstrata, a qual não poderá ser instanciada, auxiliando apenas no processo de modelagem As classes Perecivel e Não Perecivel são subclasses da classe Produto, o que demonstra a relação de herança. Com base na modelagem acima, precisamos passar para a 3a etapa de nosso projeto, a fase de prototipação, na qual as telas de nosso sistema serão desenvolvidas.
+Algumas explicações sobre o diagrama:
+Na classe venda, existe um método denominado Incluir, que não retorna nenhuma informação, ou seja, retorna void. Essa mesma explicação serve para as demais classes. Podemos perceber ainda o relacionamento todo-parte na forma de composição na relação entre as classes Venda e Itens e o relacionamento de agregação na relação Itens e Produto. A classe Produto passa a ser uma classe abstrata, a qual não poderá ser instanciada, auxiliando apenas no processo de modelagem As classes Perecivel e Não Perecivel são subclasses da classe Produto, o que demonstra a relação de herança. Com base na modelagem acima, precisamos passar para a 3a etapa de nosso projeto, a fase de prototipação, na qual as telas de nosso sistema serão desenvolvidas.
 ![Imagem Diagrama de Classes - Ferramenta Astah](https://github.com/brunopego/tpweb/blob/master/imagens/Class.jpg)
 
 ## 8. Banco de Dados
 ![Imagem Diagrama ER - Ferramenta MySql](https://github.com/brunopego/tpweb/blob/master/imagens/estoque.png)
 
 ## 9. Protótipos
-* https://github.com/brunopego/tpweb/tree/master/tpweb-master/Stock_Web
+
+Os protótipos do projeto juntamente com o código fonte podem ser encontrado no link abaixo, onde basta acessar as páginas *html*
+
+* https://github.com/brunopego/tpweb/tree/master/Stock_Web
 
 ## 10. Cronograma
 
 ## 11. Referências
 
+[1]: http://www.free-css.com/free-css-templates/page197/siminta
