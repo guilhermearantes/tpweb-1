@@ -158,6 +158,28 @@ Antes de construirmos o projeto precisamos planejar diversas soluções para a p
 
 ## 7. Diagramas
 
+Foram desenvolvidos alguns diagramas para auxiliar na construção do protótipo, conforme pode ser visto a seguir:
+
+* Diagrama de Casos de Usos:
+	![Diagrama de Casos de Usos](https://github.com/brunopego/tpweb/blob/master/imagens/ucStock.jpg)
+
+* Diagrama de Sequência para o cadastro de produtos:
+	![Diagrama de Sequência - Cadastro de produtos](https://github.com/brunopego/tpweb/blob/master/imagens/sdCadastrarProduto.jpg)
+
+* Diagrama de Sequência para a exclusão do produto:
+	![Diagrama de Sequência - Exclusão de produtos](https://github.com/brunopego/tpweb/blob/master/imagens/sdExcluirProduto.jpg)
+
+* Diagrama de Sequência para o cadastro de vendedores:
+	![Diagrama de Sequência - Cadastro de vendedores](https://github.com/brunopego/tpweb/blob/master/imagens/sdCadastrarVendedor.jpg)
+
+* Diagrama de Sequência para a inativação de vendedores:
+	![Diagrama de Sequência - Inativação de vendedores](https://github.com/brunopego/tpweb/blob/master/imagens/sdInativarVendedor.jpg)
+
+* Diagrama de Sequência para o cadastro de vendas:
+	![Diagrama de Sequência - Cadastro de vendas](https://github.com/brunopego/tpweb/blob/master/imagens/sdCadastrarVenda.jpg)
+
+* Diagrama de Sequência para a consulta de vendas:
+	![Diagrama de Sequência - Consulta de Vendas](https://github.com/brunopego/tpweb/blob/master/imagens/sdConsultarVenda.jpg)
 
 ## 8. Classes
 
