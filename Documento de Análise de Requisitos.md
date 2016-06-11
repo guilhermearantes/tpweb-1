@@ -1,7 +1,7 @@
 # Documento de Análise de Requisitos
 
 ## 1. Introdução
-Dada a necessidade de desenvolvermos um projeto para a disciplina de Sistemas Web I, identificamos a necessidade de um problema no estoque de pequenas empresas, a idéia inicial do projeto é comtemplar estoque de produtos unitários com apoio de simples sistema para gerenciar vendas desses produtos.
+Dada a necessidade de desenvolvermos um projeto para a disciplina de Sistemas Web I, identificamos a necessidade de um problema no estoque de pequenas empresas, a idéia inicial do projeto é contemplar estoque de produtos unitários com apoio de simples sistema para gerenciar vendas desses produtos.
 
 
 ## 2. Descrição do Problema
@@ -11,7 +11,7 @@ O desenvolvimento de um sistema de estoque, requer o conhecimento detalhado do p
 Com o objetivo de gerenciar estoques, o sistema será capaz de cadastrar diversos produtos e vendê-los de forma que a cada venda um vendedor seja comissionado. Portanto, quando registrado uma venda um vendedor deve estar associado, e os itens também devem ser cadastrados. Esses itens são compostos por produtos, no caso da venda de *n* produtos um único item, corresponde a esse produto, bem como a sua quantidade. O problema em questão é relacionar tais itens com os produtos registrados e dessa forma conseguir gerenciar o estoque.
 
 ## 4. Escopo da Aplicação
-A área de domínio do projeto é cobrir a necessidade de um sistema gerencial, que é capaz de gerenciar o estoque de produtos, no nosso caso de produtos eletrônicos. Com isso o sistema é limitado a esse tipo de serviço, não atendendo a estoque de produtos que exijam data de validade, peso, ou características do tipo.
+A área de domínio do projeto é cobrir a necessidade de um sistema gerencial, que é capaz de gerenciar o estoque de produtos, no nosso caso de produtos eletrônicos. Com isso o sistema é limitado a esse tipo de serviço, não atendendo a estoque de produtos que exijam data de validade, peso ou características do tipo.
 
 Para o desenvolvimento do sistema utilizamos um template grátis chamado [siminta][1] que serviu como base para a elaboração do projeto.
 
