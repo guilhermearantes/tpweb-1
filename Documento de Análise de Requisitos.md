@@ -231,6 +231,7 @@ Nesta seção está descrito os principais *Commits* no desenvolvimento da parte
 6. commit 37e246f (@Dorn290) -> Neste *commit* foi criada algumas telas para o sistema.
 7. commit 23c53e1 (@Dorn290) -> Neste *commit* foi feita alterações neste documento referente aos casos de uso.
 8. commit 0c6fd5c (@brunopego) -> Neste *commit* foi realizado a alteração da logo e algumas telas do sistema.
+9. commit 8dee1ea (@brunopego) -> Neste *commit* foi feita a finalização do relatório incluindo os diagramas.
 
 ## 13. Referências
 
